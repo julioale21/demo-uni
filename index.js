@@ -7,6 +7,10 @@ app.get('/users', (req, res) => {
     res.json({ message: 'Users API'})
 })
 
+app.get('/products', (req, res) => {
+    res.json({ message: 'Products API'})
+})
+
 app.get('/events', (req, res) => {
     res.json({ message: 'Events API' })
 })
