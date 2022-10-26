@@ -8,7 +8,7 @@ app.get('/salaries', (req, res) => {
 })
 
 app.get('/users', (req, res) => {
-    res.json({ message: 'Users API'})
+    res.json({ message: 'Users API v2'})
 })
 
 app.get('/events', (req, res) => {
