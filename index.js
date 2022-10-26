@@ -3,12 +3,8 @@ const express = require('express')
 const app = express()
 const port = 6000
 
-app.get('/salaries', (req, res) => {
-    res.json({ message: 'Salaries API' })
-})
-
 app.get('/users', (req, res) => {
-    res.json({ message: 'Users API v2'})
+    res.json({ message: 'Users API'})
 })
 
 app.get('/products', (req, res) => {
